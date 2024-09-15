@@ -9,7 +9,7 @@ const FaqPage = () => {
   const [editQuestion, setEditQuestion] = useState('');
   const [editAnswer, setEditAnswer] = useState('');
 
-  const api_url = "http://localhost:8000/api";
+  const api_url = "https://fruits-ai-backend-3.onrender.com/api";
 
   // Fetch all FAQs using Promises
   useEffect(() => {
